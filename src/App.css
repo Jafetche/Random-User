@@ -1,0 +1,58 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	padding: 20px 0;
+	background-image: url('https://img.freepik.com/vector-premium/fondo-abstracto-color-rosa-azul-degradado-materiales-web-aplicacion_149852-495.jpg?w=996');
+	background-size: cover;
+	font-family: 'SST', sans-serif;
+  }
+  
+  .app {
+	width: 100%;
+	max-width: 1200px;
+    
+  }
+  
+  .container {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card {
+	margin: 30px;
+	background: #f5f5f5;
+	box-shadow: 0px 4px 8px rgba(5, 2, 2, 0.1);
+	border-radius: 30px;
+	text-align: center;
+  }
+  
+  .card-img-top {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin:30px;
+  }
+  
+  .card-title-user {
+	margin: 20px;
+	
+	font-size: 1.2rem;
+	font-weight: bold;
+  }
+  
+  .selected {
+	color: red;
+  }
+
+  .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+  
+  
